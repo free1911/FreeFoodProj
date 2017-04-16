@@ -9,7 +9,7 @@ public class dataImport {
             Event e = new Event();
             //edit info
             e.date = "04/22/2017";
-            e.title = "HACKRON";
+            e.title = String.format("%s %d","HACKRON",i);
             e.source = "www.hakron.io";
             e.discription = "hacking,food,prizes";
             e.hoster = "The bit factory";

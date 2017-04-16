@@ -51,7 +51,7 @@ public class MAIN extends Application{
         }
 
         scrollBar.setOrientation(Orientation.VERTICAL);
-        scrollBar.setMax(event.size()*50);
+        scrollBar.setMax(event.size()*20);
         scrollBar.setMin(0);
         scrollBar.setPrefHeight(350);
         scrollBar.setPrefWidth(10);
@@ -94,7 +94,7 @@ public class MAIN extends Application{
             window.setScene(eventScene);
         });
         VBox layout=new VBox();
-        layout.getChildren().addAll(lb1,lb2,lb3,lb4,lb5,lb6,back);
+        layout.getChildren().addAll(lb1,lb2,lb3,lb4,lb5,lb6,new WebDemo(),back);
         detailScene=new Scene(layout,300,400);
     }
 
